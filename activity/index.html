@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+    <div class="calculator">
+      
+      <input type="text" id="display" readonly/>
+      
+      <div class="calc-btns">
+        <button class="op" onclick="clearInput()">C</button>
+        <button class="op" onclick="screenDisplay('(')">(</button>
+        <button class="op" onclick="screenDisplay(')')">)</button>
+        <button class="op" onclick="screenDisplay('+')">+</button>
+        <button class="num" onclick="screenDisplay('7')">7</button>
+        <button class="num" onclick="screenDisplay('8')">8</button>
+        <button class="num" onclick="screenDisplay('9')">9</button>
+        <button class="op" onclick="screenDisplay('-')">-</button>
+        <button class="num" onclick="screenDisplay('4')">4</button>
+        <button class="num" onclick="screenDisplay('5')">5</button>
+        <button class="num" onclick="screenDisplay('6')">6</button>
+        <button class="op" onclick="screenDisplay('*')">*</button>
+        <button class="num" onclick="screenDisplay('3')">3</button>
+        <button class="num" onclick="screenDisplay('2')">2</button>
+        <button class="num" onclick="screenDisplay('1')">1</button>
+        <button class="op" onclick="screenDisplay('/')">/</button>
+        <button class="num" onclick="screenDisplay('0')">0</button>
+        <button class="op" onclick="screenDisplay('.')">.</button>
+        <button class="eq" onclick="calculate()">=</button>
+      </div>
+
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>
